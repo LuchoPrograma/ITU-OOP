@@ -5,21 +5,11 @@
 package logica;
 
 import java.io.Serializable;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import jakarta.persistence.Embeddable;
 
-/**
- *
- * @author lucia
- */
-
-@Entity
-@Table(name = "Comprobante")
+@Embeddable
 public class Fecha implements Serializable {
-    
-    @Id
-    private Long id;
+
     private int dia;
     private int mes;
     private int anio;
@@ -56,15 +46,4 @@ public class Fecha implements Serializable {
     public void setAnio(int anio) {
         this.anio = anio;
     }
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-    
-    
-    
 }

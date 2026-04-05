@@ -8,21 +8,18 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.OneToOne;
-import jakarta.persistence.Table;
 
-/**
- *
- * @author lucia
- */
 @Entity
-@Table(name = "Comprobante")
-public class Recibo extends Comprobante{
+public class Recibo extends Comprobante {
     
     @JoinColumn(name="comp_prov_cod")
     @OneToOne
     private Proveedor proveedor = new Proveedor();
+    
+    @Column(name="comp_total")
     private float total;
-    @Column(name="comp_sal")
+    
+    @Column(name="comp_detalle")
     private String detalle;
 
     public Recibo() {
@@ -30,6 +27,8 @@ public class Recibo extends Comprobante{
     
     public Recibo(char tipo, String detalle, float total) {
         super(tipo);
+        this.detalle = detalle;
+        this.total = total;
     }
     public Recibo(char tipo, int numero) {
         super(tipo, numero);

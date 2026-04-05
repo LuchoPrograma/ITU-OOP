@@ -1,14 +1,14 @@
-C:\Users\lucia\OneDrive\Documentos\NetBeansProjects\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\controladores\Main.java
-C:\Users\lucia\OneDrive\Documentos\NetBeansProjects\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\controladores\MenuComprobantes.java
-C:\Users\lucia\OneDrive\Documentos\NetBeansProjects\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\logica\Comprobante.java
-C:\Users\lucia\OneDrive\Documentos\NetBeansProjects\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\logica\Controladora.java
-C:\Users\lucia\OneDrive\Documentos\NetBeansProjects\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\logica\Fecha.java
-C:\Users\lucia\OneDrive\Documentos\NetBeansProjects\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\logica\Proveedor.java
-C:\Users\lucia\OneDrive\Documentos\NetBeansProjects\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\logica\Recibo.java
-C:\Users\lucia\OneDrive\Documentos\NetBeansProjects\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\persistencia\ComprobanteJpaController.java
-C:\Users\lucia\OneDrive\Documentos\NetBeansProjects\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\persistencia\ControladoraPersistencia.java
-C:\Users\lucia\OneDrive\Documentos\NetBeansProjects\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\persistencia\exceptions\IllegalOrphanException.java
-C:\Users\lucia\OneDrive\Documentos\NetBeansProjects\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\persistencia\exceptions\NonexistentEntityException.java
-C:\Users\lucia\OneDrive\Documentos\NetBeansProjects\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\persistencia\exceptions\PreexistingEntityException.java
-C:\Users\lucia\OneDrive\Documentos\NetBeansProjects\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\persistencia\ProveedorJpaController.java
-C:\Users\lucia\OneDrive\Documentos\NetBeansProjects\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\vistas\Vista.java
+C:\Programming Projects\ITU-OOP\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\controladores\Main.java
+C:\Programming Projects\ITU-OOP\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\controladores\MenuComprobantes.java
+C:\Programming Projects\ITU-OOP\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\logica\Comprobante.java
+C:\Programming Projects\ITU-OOP\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\logica\Controladora.java
+C:\Programming Projects\ITU-OOP\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\logica\Fecha.java
+C:\Programming Projects\ITU-OOP\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\logica\Proveedor.java
+C:\Programming Projects\ITU-OOP\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\logica\Recibo.java
+C:\Programming Projects\ITU-OOP\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\persistencia\ComprobanteJpaController.java
+C:\Programming Projects\ITU-OOP\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\persistencia\ControladoraPersistencia.java
+C:\Programming Projects\ITU-OOP\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\persistencia\exceptions\IllegalOrphanException.java
+C:\Programming Projects\ITU-OOP\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\persistencia\exceptions\NonexistentEntityException.java
+C:\Programming Projects\ITU-OOP\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\persistencia\exceptions\PreexistingEntityException.java
+C:\Programming Projects\ITU-OOP\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\persistencia\ProveedorJpaController.java
+C:\Programming Projects\ITU-OOP\PreParcial-proveedores-FEDERICCI-LUCIANO\src\main\java\vistas\Vista.java

@@ -120,10 +120,7 @@ public class Vista extends javax.swing.JFrame {
 
         tablaRecibosTBL.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
+
             },
             new String [] {
                 "Tipo", "Fecha", "RS proveedor", "Detalle", "Importe Total"

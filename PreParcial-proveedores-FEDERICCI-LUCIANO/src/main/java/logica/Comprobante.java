@@ -10,35 +10,36 @@ import java.io.Serializable;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.OneToOne;
-import jakarta.persistence.Table;
+import jakarta.persistence.Inheritance;
+import jakarta.persistence.InheritanceType;
+import jakarta.persistence.Embedded;
 
 /**
  *
  * @author lucia
  */
 @Entity
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class Comprobante implements Serializable {
-    
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "comp_nro")
     private int numero;
-    
+
     @Column(name = "comp_tipo")
     private char tipo;
-    
-    @OneToOne
-    @JoinColumn(name = "comp_fecha")
+
+    @Embedded
     private Fecha fecha = new Fecha();
 
     public Comprobante() {
     }
 
-    public Comprobante(char tipo){
+    public Comprobante(char tipo) {
         this.tipo = tipo;
     }
+
     public Comprobante(char tipo, int numero) {
         this.tipo = tipo;
         this.numero = numero;
@@ -67,6 +68,5 @@ public class Comprobante implements Serializable {
     public void setFecha(Fecha fecha) {
         this.fecha = fecha;
     }
-    
-    
+
 }
