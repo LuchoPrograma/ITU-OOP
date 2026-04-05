@@ -1,0 +1,15 @@
+logica\Recibo.class
+persistencia\ProveedorJpaController.class
+persistencia\ComprobanteJpaController.class
+logica\Controladora.class
+controladores\Main.class
+controladores\MenuComprobantes.class
+vistas\Vista.class
+logica\Fecha.class
+vistas\Vista$1.class
+persistencia\exceptions\NonexistentEntityException.class
+persistencia\exceptions\PreexistingEntityException.class
+logica\Comprobante.class
+logica\Proveedor.class
+persistencia\ControladoraPersistencia.class
+persistencia\exceptions\IllegalOrphanException.class
